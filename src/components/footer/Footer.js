@@ -6,6 +6,7 @@ import Twitter from '../../images/icon-twitter.svg'
 import Pinterest from '../../images/icon-pinterest.svg'
 import Instagram from '../../images/icon-instagram.svg'
 import Button  from '../../common/button/Button'
+import './footer.css'
 
 
 const Footer = () => {
