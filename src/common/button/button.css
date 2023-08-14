@@ -1,0 +1,9 @@
+.custom-button {
+    color: white;
+    background-color:hsl(136, 65%, 51%);
+    /* background-image: linear-gradient(to right hsl(136, 65%, 51%), hsl(233, 26%, 24%)); */
+    border: 2px solid hsl(136, 65%, 51%);
+    border-radius: 20px;
+    height: 40px;
+    width: 150px;
+}
