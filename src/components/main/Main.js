@@ -33,7 +33,9 @@ const Main = () => {
             </div>
             
         </div>
-        <div className="third-section"></div>
+        <div className="third-section">
+            <h2>Latest Articles</h2>
+        </div>
     </main>
   )
 }

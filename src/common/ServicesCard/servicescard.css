@@ -7,3 +7,11 @@
     height: 50px;
     width: 50px;
 }
+
+.services-card h3 {
+    color: hsl(233, 26%, 24%);
+}
+
+.services-card p {
+    color: hsl(233, 8%, 62%);
+}

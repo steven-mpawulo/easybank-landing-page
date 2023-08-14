@@ -34,3 +34,21 @@
 .digital-banking {
     display: block;
 }
+
+.second-section {
+    background-color: hsl(0, 0%, 98%);
+    padding: 5%;
+}
+
+.second-section h2 {
+    color: hsl(233, 26%, 24%);
+}
+
+.second-section p {
+    color: hsl(233, 8%, 62%);
+}
+
+.container-for-service-cards {
+    display: flex;
+    justify-content: space-between;
+}
