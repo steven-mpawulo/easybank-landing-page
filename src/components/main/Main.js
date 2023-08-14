@@ -2,11 +2,13 @@ import React from 'react'
 import Button from '../../common/button/Button'
 import MockUps from '../../images/image-mockups.png'
 import './main.css'
-import ServicesCard from '../../common/ServicesCard/ServicesCard'
+import ServicesCard from '../../common/servicesCard/ServicesCard'
 import OnlineBanking from '../../images/icon-online.svg'
 import Budgeting from '../../images/icon-budgeting.svg'
 import FastOnboarding from '../../images/icon-onboarding.svg'
 import OpenApi from '../../images/icon-api.svg'
+import ArticleCard from '../../common/articleCard/ArticleCard'
+import CurrencyImage from '../../images/image-currency.jpg'
 
 
 const Main = () => {
@@ -35,6 +37,9 @@ const Main = () => {
         </div>
         <div className="third-section">
             <h2>Latest Articles</h2>
+            <div className="container-for-article-cards">
+                <ArticleCard image={CurrencyImage} author={"author username"} title={"Title"} message={"Information goes here"}/>
+            </div>
         </div>
     </main>
   )
