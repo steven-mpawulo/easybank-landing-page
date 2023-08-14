@@ -16,7 +16,10 @@ const Main = () => {
                 <img src={MockUps} alt="mock ups" className='mock-ups'/>
             </div>
         </div>
-        <div className="second-section"></div>
+        <div className="second-section">
+            <h2>Why choose Easybank?</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nulla, voluptas dolore commodi dolores tempore reprehenderit illum fugit. Debitis quod laudantium inventore cum quis architecto voluptates maxime ad impedit iste.</p>
+        </div>
         <div className="third-section"></div>
     </main>
   )
