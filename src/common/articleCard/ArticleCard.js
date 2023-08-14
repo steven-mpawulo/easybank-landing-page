@@ -1,9 +1,10 @@
 import React from 'react'
+import './articlecard.css'
 
 const ArticleCard = ({image, author, title, message, }) => {
   return (
-    <div>
-        <img src={image} alt="article" />
+    <div className='article-card'>
+        <img src={image} alt="article" className='article-image'/>
         <p>By {author}</p>
         <h3>{title}</h3>
         <p>{message}</p>

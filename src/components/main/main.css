@@ -52,3 +52,16 @@
     display: flex;
     justify-content: space-between;
 }
+
+.third-section {
+    padding: 5%;
+}
+
+.third-section h2 {
+    color: hsl(233, 26%, 24%);
+}
+
+.container-for-article-cards {
+    display: flex;
+    justify-content: space-between;
+}
