@@ -2,6 +2,12 @@ import React from 'react'
 import Button from '../../common/button/Button'
 import MockUps from '../../images/image-mockups.png'
 import './main.css'
+import ServicesCard from '../../common/ServicesCard/ServicesCard'
+import OnlineBanking from '../../images/icon-online.svg'
+import Budgeting from '../../images/icon-budgeting.svg'
+import FastOnboarding from '../../images/icon-onboarding.svg'
+import OpenApi from '../../images/icon-api.svg'
+
 
 const Main = () => {
   return (
@@ -19,6 +25,13 @@ const Main = () => {
         <div className="second-section">
             <h2>Why choose Easybank?</h2>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit nulla, voluptas dolore commodi dolores tempore reprehenderit illum fugit. Debitis quod laudantium inventore cum quis architecto voluptates maxime ad impedit iste.</p>
+            <div className="container-for-service-cards">
+            <ServicesCard icon={OnlineBanking} title={"Online Banking"} message={"Information goes here"}/>
+            <ServicesCard icon={Budgeting} title={"Simple Budgeting"} message={"Information goes here"}/>
+            <ServicesCard icon={FastOnboarding} title={"Fast Onboarding"} message={"Information goes here"}/>
+            <ServicesCard icon={OpenApi} title={"Open API"} message={"Information goes here"}/>
+            </div>
+            
         </div>
         <div className="third-section"></div>
     </main>
